@@ -54,6 +54,77 @@
   color: black;
 }
 
+#footer {
+  background-color: #f1f1f1;
+}
+#footer .footer-phone {
+  background-color: #dfdfdf;
+  padding: 24px;
+}
+#footer .footer-phone .footer-phone_icon {
+  background-color: black;
+  border-radius: 100%;
+  padding: 8px;
+  color: #dfdfdf;
+  margin-right: 12px;
+}
+#footer .footer-phone .footer-phone_label {
+  margin-right: 8px;
+}
+#footer .footer-phone .footer-phone_number {
+  color: orangered;
+  font-weight: bold;
+}
+#footer .footer-intro {
+  width: 100%;
+  padding: 16px;
+}
+#footer .footer-intro .footer-heading {
+  text-align: center;
+}
+#footer .footer-intro .footer-text {
+  text-align: center;
+}
+#footer .footer-heading {
+  padding: 12px 0;
+  font-size: 16pt;
+  font-weight: bold;
+}
+#footer .footer-text {
+  line-height: 1.5;
+}
+#footer .footer-contact {
+  padding-top: 32px;
+}
+#footer .footer-contact li {
+  line-height: 1.5;
+}
+#footer .footer-contact .footer-contact_header {
+  font-weight: 500;
+}
+#footer .footer-contact .footer-contact_social-icon {
+  width: 32px;
+  height: 32px;
+  padding: 8px;
+  margin: 0 12px;
+  border: 1px solid black;
+  border-radius: 100%;
+  color: black;
+}
+#footer .footer-contact .footer-contact_fanpage-container {
+  width: 100%;
+  height: 160px;
+  background-color: black;
+}
+
+.about-content {
+  padding: 32px;
+}
+
+.about-image {
+  max-width: 100vw;
+}
+
 .about-header {
   padding: 16pt 0;
   font-size: xx-large;
