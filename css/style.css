@@ -3,9 +3,13 @@
 }
 
 #nav {
-  background: #f1f1f1;
+  background: rgba(255, 255, 255, 0.3);
   width: 100%;
   padding: 8pt;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+
 }
 #nav .navbar-brand #nav_logo {
   height: 64px;
@@ -147,4 +151,30 @@
   padding-bottom: 12pt;
 }
 
+.body-model {
+  background-image: url(../asset/img/logo/Glass\ Effect\ Login\ Page\ -\ Blue.png);
+  position: relative;
+  height: calc(100vh - 80px);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+}
+
+.form-input-model {
+  margin-top: 200px;
+  width: 690px;
+  height: 690px;
+  padding: 90px;
+}
+
+.form-control-input {
+  padding: 12px;
+  margin-right: 16px;
+  background: white;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  box-shadow: 0 0 12px #888888;
+  width: 100%;
+}
 /*# sourceMappingURL=style.css.map */

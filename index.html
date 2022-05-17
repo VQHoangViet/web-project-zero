@@ -4,40 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="//bizweb.dktcdn.net/100/369/010/themes/845311/assets/favicon.png?1646880150670" type="image/png">
-    <title>Fresh Coins</title>
+    <link rel="shortcut icon" href="./asset/img/logo/logo.png" type="image/png">
+    <title>Spell Correction</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/bootstrap-grid.css">
-    
+    <script type="text/javascript" src="./js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
     <script src="https://kit.fontawesome.com/3f0c911e10.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <header class="fix-menu-top">
-        <div class="container-fluid header">
-            <div class="row menu-top">
-                <div class="col-sm-3 logo-wraper">
-                    <img src="./asset/img/logo/logo.png" alt="dirty-coins-logo">
-                </div>
-                <div class="col-sm-6 menu-wraper">
-                    <ul class="menu">
-                        <li class="items">Shop</li>
-                        <li class="items">Sale</li>
-                        <li class="items">News</li>
-                        <li class="items">Contact</li>
-                        <li class="items">About</li>
-                        <li class="items">Collab's</li>
-                    </ul>
-                </div>
-                <div class="col-sm-3 user-wraper">
-                    <img src="./asset/icon/pic-search.png" alt="pic-search">
-                    <i class="fa-solid fa-user"></i>
-                    <i class="icon"></i>
-                </div>
+<body style="position: relative;">
+<header id="nav"></header>
+<div class="container-fluid body-model">
+  <div class="col about-content">
+    <div class="row justify-content-center">
+        <form class="form-input-model">
+            <h1 style="display:block; color:white; margin-bottom: 60px; font-size:30px">Spell Correction Machine</h1>
+            <div class="form-group" >
+              <label for="exampleFormControlInput1" style="display:block; margin-bottom: 10px; color: white;">Input a sentence:</label>
+              <input type="text" class="form-control form-control-input" id="exampleFormControlInput1" placeholder="">
             </div>
-        </div>
-    </header>
-    <section></section>
-    <footer></footer>
+            <button type="submit" class="btn btn-primary" style="margin: 10px 0 40px 0; padding: 10px 20px; border-radius: 10px; background-color: rgb(141, 182, 219); border: none;">Submit</button>
+            <div class="form-group" style=" margin-bottom: 40px;">
+                <label for="exampleFormControlTextarea1" style="display:block; margin-bottom: 10px; color: white;">Spell Correction output:</label>
+                <textarea disabled class="form-control form-control-input" id="exampleFormControlTextarea1" rows="3" placeholder="Result..."></textarea>
+            </div>
+            
+          </form>
+    </div>
+  </div>
+</div>
+<footer id="footer"></footer>
 </body>
 </html>
